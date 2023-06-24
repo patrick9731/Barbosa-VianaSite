@@ -145,3 +145,105 @@ nav ul a:hover::after {
 .sobre-nos .sobre-nos-img img {
   width: 100%;
 }
+
+/* Depoimentos */
+
+.depoimentos h3 {
+  text-align: center;
+}
+.depoimentos p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.depoimentos .card-item {
+  background-color: #d3e6fd;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s;
+}
+.depoimentos .card-item img {
+  border-radius: 100%;
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+.depoimentos .card-item .nome-user {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.depoimentos .card-item .depoimento-user {
+
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+
+.depoimentos .card-item .estrelas {
+  margin: 15px 0;
+  border-top: 2px solid #71767a23 ;
+  
+}
+
+.depoimentos .card-item .estrelas i{
+ color: #4f9cf9;
+ margin-top: 15px;
+ font-size: 20px; 
+ transition: 0.3s;
+}
+.depoimentos .card-item:hover{
+  background-color: #4f9cf9;
+  margin-top: -5px;
+
+}
+
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimento-user,
+.depoimentos .card-item:hover .estrelas i{
+  color: white;
+}
+
+/* end depoimentos  */
+
+/* clientes */
+
+.clientes h3,
+.clientes p{
+  text-align: center;
+}
+
+.clientes .container div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* end clientes  */
+/* footer */
+
+footer {
+  background-color: #172e4e;
+  text-align: center;
+}
+footer i{
+  color: #3580db;
+  font-size: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+  color: white;
+  font-size: 8px;
+}
+
+/* end footer  */
