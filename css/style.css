@@ -447,6 +447,15 @@ nav .close-icon {
   .faca-mais .faca-mais-img {
     width: 100%;
   }
+
+  .advogados .advogados-img,
+  .advogados .advogados-text {
+    width: 100%;
+  }
+  .advogados .advogados-text {
+    margin-top: 10px;
+  }
+  
   /* banner responsivo */
   .banner .banner-text {
     padding: 0;
