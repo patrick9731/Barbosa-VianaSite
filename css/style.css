@@ -138,12 +138,32 @@ nav .close-icon {
   width: 100%;
 }
 
-.advogados-img{
-  width: 18%;
+/* advogados */
+
+.advogados .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.advogados-img img{
-  width: 100%;
+.advogados .advogados-text{
+  width: 80%;
+  padding: 40px;
+}
+
+.advogados .advogados-text p{
+  margin: 18px 0;
+  color: #000000a6;
+
+}
+
+.advogados .advogados-img{
+  width: 20%;
+}
+
+.advogados .advogados-img img{
+  width: 80%;
+  border-radius: 10px;
 }
 .depoimentos h3 {
   text-align: center;
