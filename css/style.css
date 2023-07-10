@@ -447,7 +447,13 @@ nav .close-icon {
   .faca-mais .faca-mais-img {
     width: 100%;
   }
-
+  
+.advogados .container {
+    flex-direction: column;
+  }
+  .advogados .advogados-img img {
+    width: 100%;
+  }
   .advogados .advogados-img,
   .advogados .advogados-text {
     width: 100%;
@@ -491,22 +497,6 @@ nav .close-icon {
   }
   .contacto-info .right-side {
     margin-bottom: 30px;
-  }
-}
-@media (max-width: 600px) {
-
-  .advogados .container {
-    flex-direction: column;
-  }
-  .advogados .advogados-img img{
-    width: 100%;
-  }
-  .advogados .advogados-img,
-  .advogados .advogados-text {
-    width: 100%;
-  }
-  .advogados .advogados-text {
-    margin-top: 10px;
   }
 }
 
