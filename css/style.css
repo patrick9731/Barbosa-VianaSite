@@ -26,6 +26,21 @@ p {
   padding: 0 5%;
 }
 
+button {
+  background-color: #25d366;
+  
+  padding: 3px 12px;
+  border-radius: 100px;
+  font-size: 42px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+button i {
+  color: white;
+}
+
 .btn {
   background-color: #4f9cf9;
   color: white;
@@ -35,16 +50,16 @@ p {
   display: inline-block;
   transition: 0.1s;
 }
-.btn.animate-btn {
+.button.animate-btn {
   animation: animate-outline 1s ease-out infinite;
 }
-.btn:hover {
-  background-color: #3580db;
+.button:hover {
+  background-color: #25d366;
 }
 
 @keyframes animate-outline {
   from {
-    outline: 0px solid #4f9bf98a;
+    outline: 0px solid #128C7E;
   }
   to {
     outline: 15px solid #4f9bf900;
@@ -140,28 +155,27 @@ nav .close-icon {
 
 /* advogados */
 
-.advogados .container{
+.advogados .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.advogados .advogados-text{
+.advogados .advogados-text {
   width: 80%;
   padding: 40px;
 }
 
-.advogados .advogados-text p{
+.advogados .advogados-text p {
   margin: 18px 0;
   color: #000000a6;
-
 }
 
-.advogados .advogados-img{
+.advogados .advogados-img {
   width: 20%;
 }
 
-.advogados .advogados-img img{
+.advogados .advogados-img img {
   width: 80%;
   border-radius: 10px;
 }
@@ -447,8 +461,8 @@ nav .close-icon {
   .faca-mais .faca-mais-img {
     width: 100%;
   }
-  
-.advogados .container {
+
+  .advogados .container {
     flex-direction: column;
   }
   .advogados .advogados-img img {
@@ -507,6 +521,4 @@ nav .close-icon {
   .faca-mais .faca-mais-text h3 {
     font-size: 40px;
   }
-
-  
 }
