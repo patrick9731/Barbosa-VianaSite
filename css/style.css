@@ -28,7 +28,7 @@ p {
 
 button {
   background-color: #25d366;
-  
+
   padding: 3px 12px;
   border-radius: 100px;
   font-size: 42px;
@@ -59,7 +59,7 @@ button i {
 
 @keyframes animate-outline {
   from {
-    outline: 0px solid #128C7E;
+    outline: 0px solid #128c7e;
   }
   to {
     outline: 15px solid #4f9bf900;
@@ -132,6 +132,11 @@ nav .close-icon {
   margin: 18px 0;
 }
 /* faca mais */
+
+.faca-mais {
+  background-color: #d3e6fd;
+}
+
 .faca-mais .container {
   display: flex;
   align-items: center;
@@ -154,6 +159,10 @@ nav .close-icon {
 }
 
 /* advogados */
+
+.advogados {
+  background-color: #e0edfd;
+}
 
 .advogados .container {
   display: flex;
@@ -286,6 +295,7 @@ nav .close-icon {
 }
 /* end Página sobre */
 /* Página servicos */
+
 .servicos h3 {
   text-align: center;
 }
@@ -312,6 +322,11 @@ nav .close-icon {
 .servicos .row-card-item:hover p {
   color: white;
 }
+
+.servicos .row-card-item:hover ul {
+  color: white;
+}
+
 .servicos .row-card-item img {
   background-color: #4f9cf9;
   border-radius: 14px;
